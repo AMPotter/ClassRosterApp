@@ -7,11 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 class Person {
     var firstName = ""
     var lastName = ""
     var isStudent = false
+    var image : UIImage?
     
     init (firstName : String, lastName : String, isStudent : Bool) {
         self.firstName = firstName
@@ -23,4 +25,3 @@ class Person {
         return "\(firstName) \(lastName)"
     }
 }
-

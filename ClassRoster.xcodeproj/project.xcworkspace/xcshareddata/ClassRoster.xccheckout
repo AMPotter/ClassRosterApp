@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88693ED0-A187-41EC-A912-1F4EC6C1332C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ClassRoster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0FE45945F9C731A800874463A09120EE530D2AC7</key>
+		<string>https://github.com/AMPotter/ClassRosterApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ClassRoster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0FE45945F9C731A800874463A09120EE530D2AC7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AMPotter/ClassRosterApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0FE45945F9C731A800874463A09120EE530D2AC7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0FE45945F9C731A800874463A09120EE530D2AC7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ClassRoster</string>
+		</dict>
+	</array>
+</dict>
+</plist>

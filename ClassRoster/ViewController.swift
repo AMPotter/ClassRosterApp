@@ -21,8 +21,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.dataSource = self
         
         var andrewPotter = Person(firstName: "Andrew", lastName: "Potter", isStudent: true)
+        var alecArmijo = Person(firstName: "Alec", lastName: "Armijo", isStudent: false)
         var troyStollery = Person(firstName: "Troy", lastName: "Stollery", isStudent: false)
         self.people.append(andrewPotter)
+        self.people.append(alecArmijo)
         self.people.append(troyStollery)
         // Do any additional setup after loading the view, typically from a nib.
     }
