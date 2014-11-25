@@ -15,6 +15,8 @@
 		137714BA1A0881210029CD59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137714B91A0881210029CD59 /* Images.xcassets */; };
 		137714BD1A0881210029CD59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137714BB1A0881210029CD59 /* LaunchScreen.xib */; };
 		137714C91A0881210029CD59 /* ClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137714C81A0881210029CD59 /* ClassRosterTests.swift */; };
+		13A00B451A240540008FDBC0 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A00B441A240540008FDBC0 /* PersonTableViewCell.swift */; };
+		13BA9FE11A229CD9009A59E4 /* StudentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13BA9FE01A229CD9009A59E4 /* StudentList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		137714C21A0881210029CD59 /* ClassRosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassRosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		137714C71A0881210029CD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137714C81A0881210029CD59 /* ClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRosterTests.swift; sourceTree = "<group>"; };
+		13A00B441A240540008FDBC0 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		13BA9FE01A229CD9009A59E4 /* StudentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudentList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +85,10 @@
 		137714AF1A0881210029CD59 /* ClassRoster */ = {
 			isa = PBXGroup;
 			children = (
-				137714B21A0881210029CD59 /* AppDelegate.swift */,
-				137714B41A0881210029CD59 /* ViewController.swift */,
-				133C826E1A0B2EA300D8EF87 /* DetailViewController.swift */,
-				136D9EE31A0AEC42009007D1 /* Person.swift */,
-				137714B61A0881210029CD59 /* Main.storyboard */,
+				13E0BE851A1AF3C300F6C10B /* Controller Layer */,
+				13E0BE841A1AF3A500F6C10B /* View Layer */,
+				13E0BE831A1AF38500F6C10B /* Model Layer */,
 				137714B91A0881210029CD59 /* Images.xcassets */,
-				137714BB1A0881210029CD59 /* LaunchScreen.xib */,
 				137714B01A0881210029CD59 /* Supporting Files */,
 			);
 			path = ClassRoster;
@@ -97,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				137714B11A0881210029CD59 /* Info.plist */,
+				13BA9FE01A229CD9009A59E4 /* StudentList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,6 +118,34 @@
 				137714C71A0881210029CD59 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13E0BE831A1AF38500F6C10B /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+				13A00B441A240540008FDBC0 /* PersonTableViewCell.swift */,
+				136D9EE31A0AEC42009007D1 /* Person.swift */,
+				137714B21A0881210029CD59 /* AppDelegate.swift */,
+			);
+			name = "Model Layer";
+			sourceTree = "<group>";
+		};
+		13E0BE841A1AF3A500F6C10B /* View Layer */ = {
+			isa = PBXGroup;
+			children = (
+				137714B61A0881210029CD59 /* Main.storyboard */,
+				137714BB1A0881210029CD59 /* LaunchScreen.xib */,
+			);
+			name = "View Layer";
+			sourceTree = "<group>";
+		};
+		13E0BE851A1AF3C300F6C10B /* Controller Layer */ = {
+			isa = PBXGroup;
+			children = (
+				137714B41A0881210029CD59 /* ViewController.swift */,
+				133C826E1A0B2EA300D8EF87 /* DetailViewController.swift */,
+			);
+			name = "Controller Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +197,11 @@
 				TargetAttributes = {
 					137714AC1A0881210029CD59 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 9MCCUDG22K;
 					};
 					137714C11A0881210029CD59 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 9MCCUDG22K;
 						TestTargetID = 137714AC1A0881210029CD59;
 					};
 				};
@@ -200,6 +232,7 @@
 			files = (
 				137714B81A0881210029CD59 /* Main.storyboard in Resources */,
 				137714BD1A0881210029CD59 /* LaunchScreen.xib in Resources */,
+				13BA9FE11A229CD9009A59E4 /* StudentList.plist in Resources */,
 				137714BA1A0881210029CD59 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +254,7 @@
 				136D9EE41A0AEC42009007D1 /* Person.swift in Sources */,
 				137714B51A0881210029CD59 /* ViewController.swift in Sources */,
 				137714B31A0881210029CD59 /* AppDelegate.swift in Sources */,
+				13A00B451A240540008FDBC0 /* PersonTableViewCell.swift in Sources */,
 				133C826F1A0B2EA300D8EF87 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +400,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -377,6 +413,7 @@
 				INFOPLIST_FILE = ClassRosterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassRoster.app/ClassRoster";
 			};
 			name = Debug;
@@ -385,6 +422,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -392,6 +431,7 @@
 				INFOPLIST_FILE = ClassRosterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassRoster.app/ClassRoster";
 			};
 			name = Release;

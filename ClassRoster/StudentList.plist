@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Edward</string>
+		<key>First Name</key>
+		<string>Abrahamsen</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Akins</string>
+		<key>First Name</key>
+		<string>Clint</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Barnes</string>
+		<key>First Name</key>
+		<string>Joseph</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Ledbetter</string>
+		<key>First Name</key>
+		<string>Brian</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Caldwell</string>
+		<key>First Name</key>
+		<string>Adam</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Christensen</string>
+		<key>First Name</key>
+		<string>Ryan</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Hour</string>
+		<key>First Name</key>
+		<string>Daniel</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Mentele</string>
+		<key>First Name</key>
+		<string>Eric</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Frizzele</string>
+		<key>First Name</key>
+		<string>Chantel</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>TA</string>
+		<key>Last Name</key>
+		<string>Fry</string>
+		<key>First Name</key>
+		<string>David</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Hendershot</string>
+		<key>First Name</key>
+		<string>Jeff</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Teacher</string>
+		<key>Last Name</key>
+		<string>Johnson</string>
+		<key>First Name</key>
+		<string>Brad</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Kendall</string>
+		<key>First Name</key>
+		<string>Scott</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Koch</string>
+		<key>First Name</key>
+		<string>Denise</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Labaz</string>
+		<key>First Name</key>
+		<string>Michael</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Landin</string>
+		<key>First Name</key>
+		<string>Patrick</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Lee</string>
+		<key>First Name</key>
+		<string>Robert</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Leonard</string>
+		<key>First Name</key>
+		<string>John</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Marsh</string>
+		<key>First Name</key>
+		<string>Duncan</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Park</string>
+		<key>First Name</key>
+		<string>Lance</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Pearson</string>
+		<key>First Name</key>
+		<string>Dawn</string>
+	</dict>
+	<dict>
+		<key>Status</key>
+		<string>Student</string>
+		<key>Last Name</key>
+		<string>Potter</string>
+		<key>First Name</key>
+		<string>Andrew</string>
+	</dict>
+</array>
+</plist>

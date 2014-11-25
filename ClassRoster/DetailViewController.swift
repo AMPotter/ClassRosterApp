@@ -16,19 +16,19 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     var imagePickerController = UIImagePickerController()
 
     
-    var selectedPerson = Person(firstName: "John", lastName: "Doe", isStudent: true)
+    var selectedPerson : Person?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.imageView.image = selectedPerson.image
-        self.title = self.selectedPerson.returnName()
-        self.textFieldFirstName.delegate = self
-        self.textFieldLastName.delegate = self
-        
-        self.textFieldFirstName.placeholder = self.selectedPerson.firstName
-        self.textFieldLastName.placeholder = self.selectedPerson.lastName
-        
+        textFieldFirstName.text = selectedPerson?.firstName
+        textFieldLastName.text = selectedPerson?.lastName
+        imageView.image = selectedPerson?.image
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.selectedPerson?.firstName = self.textFieldFirstName.text
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -38,13 +38,13 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         self.view.endEditing(true)
-        //textFieldFirstName.resignFirstResponder()
-        //textFieldLastName.resignFirstResponder()
+        textFieldFirstName.resignFirstResponder()
+        textFieldLastName.resignFirstResponder()
     }
 
     @IBAction func cameraButtonPressed(sender: AnyObject) {
-        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
-            self.imagePickerController.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera) {
+            self.imagePickerController.sourceType = UIImagePickerControllerSourceType.Camera
             
             self.imagePickerController.delegate = self
             
@@ -58,7 +58,7 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         self.imageView.image = image
         
         imagePickerController.dismissViewControllerAnimated(true, completion: nil)
-        self.selectedPerson.image = image
+        self.selectedPerson?.image = image
         
     }
 
